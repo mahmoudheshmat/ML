@@ -4,7 +4,7 @@ def activation(x):
     '''
     Using sigmoid function as activation function
     '''
-    return 1/(1 - torch.exp(x * -1))
+    return 1/(1 + torch.exp(x * -1))
 '''
 Generating random features, weights and bias
 '''
